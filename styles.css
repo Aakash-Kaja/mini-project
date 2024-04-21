@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #b5171797; 
+    color: #fff; 
+    padding: 12px 0; 
+    top: 0;
+    z-index: 1000;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h3{
+    margin-left: 20px;
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #fff; 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.search-bar input[type="text"] {
+    padding: 12px; 
+    width: 300px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 12px 24px; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5ee5de;
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer;
+    margin-left: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF0YwRz2e2fjL7pyKv9i54BImCxqXWaVZetw&s');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.product-card {
+    background-color: #f5f5f5; 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5ee5de;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #495057;
+}
